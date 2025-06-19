@@ -1,0 +1,145 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* tailwind css link  */
+@import "tailwindcss";
+
+@theme {
+
+    --font-ibm: "IBM Plex Serif", serif;
+    --font-cascadia: "Cascadia Code", sans-serif;
+    --color-primary: #fea115;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mycontainer {
+    @apply py-2 px-5 md:py-3.5 md:px-10;
+}
+
+.Nav-Link {
+    @apply cursor-pointer hover:text-primary duration-500 transition-all
+}
+
+@keyframes rotatee {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotater {
+    animation: rotatee 60s linear infinite;
+    /* run slowly, forever */
+    animation-play-state: running;
+}
+
+.rotater:hover {
+    animation-play-state: paused;
+    /* pause on hover */
+}
+
+
+@keyframes moveY {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-0.7rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.free-delivery-animation {
+    animation: moveY 2s linear infinite;
+    color: #fea115;
+}
+
+.gallerybtn {
+    color: white;
+    background: linear-gradient(to right, #fea115 50%, red 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.gallerybtn:hover {
+    background-position: left bottom;
+}
+
+
+/* Active bullet */
+.swiper-pagination-bullet-active {
+    background-color: #fa9b0c !important;
+}
+
+/* Inactive bullets */
+.swiper-pagination-bullet {
+    background-color: #b4925f !important;
+    opacity: 1;
+}
+
+
+table {
+  
+    width: 100%;
+}
+
+
+td {
+    text-align: left;
+    vertical-align: center;
+}
+
+th
+ {
+    text-align: center;
+    vertical-align: center;
+}
+
+
+.custom-delete-button {
+    background-color: red !important;  
+    color: white !important;          
+               
+}
+
+/* .new-section{
+    height: 100vh;
+    width: 100%;
+    background-color: #4070f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.dots span{
+ position: absolute;
+ height: 10px;
+ width: 10px;
+ border-radius: 50%;
+ background-color: #fea115;
+ transform: rotate(calc(var(--i) * (360deg / 15))) translateY(35px);
+ animation: animate 1.5s linear infinite;
+ animation-delay: calc(var(--i) * 0.1s);
+ opacity: 0;
+}
+
+@keyframes animate {
+0%{
+    opacity: 1;
+}
+100%{
+    opacity: 0;
+}
+}
+
