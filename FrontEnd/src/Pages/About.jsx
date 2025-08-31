@@ -2,7 +2,7 @@ import BranchCard from "../Componets/About/BranchCard"
 import HealthyFoodSection from "../Componets/About/HealthyFoodSection"
 import MemberCard from "../Componets/About/MemberCard"
 import MissionandVision from "../Componets/About/MissionandVision"
-import ServicesSection from "../Componets/About/ServicesSection"
+import ServicesSection from "../Componets/About/SewicesSection"
 import WelcomeSection from "../Componets/About/welcomeSection"
 import Footer from '../Componets/Footer/Footer'
 
