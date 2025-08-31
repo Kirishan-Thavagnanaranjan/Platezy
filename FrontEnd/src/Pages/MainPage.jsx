@@ -1,4 +1,12 @@
 import { Link } from "react-router-dom"
+import ScrollReveal from "scrollreveal";
+
+ScrollReveal().reveal(".my-element", {
+  delay: 200,
+  distance: "50px",
+  origin: "bottom",
+});
+
 
 const MainPage = () => {
  
