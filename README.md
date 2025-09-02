@@ -134,7 +134,7 @@ Frontend/
 - Register or log in to place orders.
 - Admins can log in to manage menu and orders.
 
----
+--- 
 
 ## API Documentation
 
