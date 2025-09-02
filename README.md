@@ -35,20 +35,20 @@ Platezy is a full-stack MERN (MongoDB, Express, React, Node.js) food delivery ap
 **User**
 
 <p align="center">
-  <img src="./Frontend/public/01.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
-  <img src="./Frontend/public/02.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
-  <img src="./Frontend/public/03.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
-  <img src="./Frontend/public/04.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
-  <img src="./Frontend/public/05.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
-  <img src="./Frontend/public/06.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
-  <img src="./Frontend/public/07.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
-  <img src="./Frontend/public/08.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/01.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/02.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/03.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/04.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/05.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/06.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/07.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
+  <img src="./FrontEnd/public/08.webp" alt="Home Page" width="48%" style="margin-right: 10px; margin-bottom: 10px;">
 </p>
 
 **Admin**
 
-<img src="./Frontend/public/09.webp" alt="Home Page" width="48%" style="margin-right: 10px;">
-  <img src="./Frontend/public/10.webp" alt="Home Page" width="48%" style="margin-right: 10px; ;">
+<img src="./FrontEnd/public/09.webp" alt="Home Page" width="48%" style="margin-right: 10px;">
+  <img src="./FrontEnd/public/10.webp" alt="Home Page" width="48%" style="margin-right: 10px; ;">
 
 ## Tech Stack
 
